@@ -1,0 +1,15 @@
+t = int(input())
+for i in range(t):
+    n=input()
+    print(int(n[0])+int(n[-1]))
+    
+Input
+3 
+1234
+124894
+242323
+
+Output
+5
+5
+5
